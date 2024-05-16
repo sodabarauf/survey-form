@@ -8,52 +8,65 @@
 </head>
 <body>
     
-    <section class="wrapper-main">
-        <form action="example.html" method="get"><br><br>
-            <h1>Survey Form</h1><br><br>
-            <label for="first name">First Name: </label>
-        <br>
-            <input required type="text" id="first name" name="first name" placeholder="write name">
-            <br><br>
-            <label for="last name">Last Name: </label>
-        <br>
-            <input required type="text" id="last name" name="last name" placeholder="write last name">
-            <br><br>
-            <label for="email">Email: </label>
-        <br>
-            <input required type="text" id="email" name="email" placeholder="write email">
-            <br><br>
-            <label for="contact number">Contact Number: </label>
-        <br>
-            <input required type="number" id="contact number" name="contact number" placeholder="write contact number">
-            <br><br>
-            <label for="address">Address: </label>
-        <br>
-            <input type="text" id="address" name="address" placeholder="address">
-            <br><br>
-            <label for="education level">what is your education level?</label>
-        <br>
+    <h1 id="title">survey form</h1>
+    <p id="description">this is survey form about natural resources pollution</p>
+        <form id="survey-form">
+            <div class="form-control">
+                <label for="first name">First Name: </label>
+                <input required type="text" id="first name" name="first name" placeholder="write name">
+            </div>
+            <div class="form-control">
+               <label for="last name">Last Name: </label>
+               <input required type="text" id="last name" name="last name" placeholder="write last name">
+            </div>
+            <div class="form-control">
+               <label for="email">Email: </label>
+               <input required type="text" id="email" name="email" placeholder="write email">
+            </div>
+            <div class="form-control">
+               <label for="contact number">Contact Number: </label>
+               <input required type="number" id="contact number" name="contact number" placeholder="write contact number">
+            </div>
+            <div class="form-control">
+               <label for="address">Address: </label>
+               <input type="text" id="address" name="address" placeholder="address">
+            </div>
+            <div class="form-control">
+               <br><label for="education level">what is your education level?</label>
             <select name="education level" id="education level">
                 <option value="phd">PHD</option>
                 <option value="bachelo">Bachelor</option>
                 <option value="student">Student</option>
             </select>
-            <br><br>
-            <label>Do you have idea about natural resources pollution?</label>
-        <br>
-            <input type="radio" id="yes" name="yes" value="yes">
-            <label for="yes">YES</label>
-            <input type="radio" id="no" name="no" value="no">
-            <label for="no">NO</label>
-
-
-            <br><br>
-            <h2>Question 1:<span>what is your thoughts about this type of pollution?</span></h2><textarea name="question1" id="question1" placeholder="description"></textarea>
-            <h2>Question 2:<span>which solutions do you suggest?</span></h2><textarea name="question2" id="question2" placeholder="description"></textarea>
-            <h2>Question 3:<span>which actions should take by government?</span></h2><textarea name="question3" id="question3" placeholder="description"></textarea>
-            <br><br>
-            <button type="submit">send data</button>
-
+            </div>
+            <div class="form-control">
+                <br><label>Do you have idea about natural resources pollution?</label><br>
+                <label for="yes">
+                <input type="radio" id="yes" name="yes" value="yes">
+                YES</label><br>
+                <label for="no">
+                <input type="radio" id="no" name="no" value="no">
+                NO</label><br>
+            </div>
+            <div class="fprm-control">
+                <br><label>what is your thoughts about this type of pollution?</label><br>
+                <label for="inp-1">
+                <input type="checkbox" id="field" name="inp-1">
+                it is dangerous for nature</label><br>
+                <label for="inp-2">
+                <input type="checkbox" id="field" name="inp-2">
+                it is not impotant</label><br>
+                <label for="inp-3">
+                <input type="checkbox" id="field" name="inp-3">
+                i do not have an idea</label><br>
+            </div>
+            <div class="form-control">
+                <br><label for="comment">what solution do you suggest?</label>
+                <textarea id="comment" name="comment" row="10" cols="50" placeholder="i suggest these solutions..."></textarea>
+            </div class="submit">
+                <div class="form-control">
+                <input type="submit" id="submit">
+            </div>
         </form>
     </section>
 
