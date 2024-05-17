@@ -27,10 +27,10 @@ body {
   padding-bottom: 2em;
 }
 
-#first name-label, 
-#name-label, 
-#email-label, 
-#contact number-label,  
+#first name-label,
+#last name-label,
+#email-label,
+#contact number-label,
 #address-label {
   margin: 5px;
   width: 100%;
@@ -38,7 +38,7 @@ body {
   border-radius: 4px;
 }
 
-.form-control input[type="radio"], 
+.form-control input[type="radio"],
 .form-control[type="checkbox"] {
   display: inline-block;
   margin: 5px;
