@@ -22,19 +22,24 @@ body {
 #survey-form {
   max-width: 600px;
   margin: 50px auto;
-  padding-bottom: 2em;
   background-color: rgba(143, 212, 85, 0.705);
   padding: 20px;
+  padding-bottom: 2em;
 }
 
-#first name-label, #name-labe, #email-label, #contact number-label, #address-label {
+#first name-label, 
+#name-label, 
+#email-label, 
+#contact number-label,  
+#address-label {
   margin: 5px;
   width: 100%;
   min-height: 2em;
   border-radius: 4px;
 }
 
-.form-control input[type="radio"], .form-control[type="checkbox"] {
+.form-control input[type="radio"], 
+.form-control[type="checkbox"] {
   display: inline-block;
   margin: 5px;
 }
