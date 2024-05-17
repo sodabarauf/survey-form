@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>survey form</title>
+     <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    
+    <h1 id="title">survey form</h1>
+    <p id="description">this is survey form about natural resources pollution</p>
+        <form id="survey-form">
+            <div class="form-control">
+                <label for="firstname" id="name-label">First Name: </label>
+                <br>
+                <input required type="text" id="name" name="first name" placeholder="write name">
+            </div>
+            <div class="form-control">
+               <label for="lastname" id="lastname-label">Last Name: </label>
+               <br>
+               <input required type="text" id="last name" name="last name" placeholder="write last name">
+            </div>
+            <div class="form-control">
+               <label for="email" id="email-label">Email: </label>
+               <br>
+               <input required type="email" id="email" name="email" placeholder="write email">
+            </div>
+            <div class="form-control">
+               <label for="contactnumber" id="number-label">Contact Number: </label>
+               <br>
+               <input required type="number" id="number" name="contact number" min="8" max="10" placeholder="write number">
+            </div>
+            <div class="form-control">
+               <label for="address">Address: </label>
+               <br>
+               <input type="text" id="address" name="address" placeholder="address">
+            </div>
+            <div class="form-control">
+               <br><label for="education level">what is your education level?</label>
+            <select name="education level" id="dropdown">
+                <option value="phd">PHD</option>
+                <option value="bachelo">Bachelor</option>
+                <option value="student">Student</option>
+            </select>
+            </div>
+            <div class="form-control">
+                <br><label>Do you have idea about natural resources pollution?</label><br>
+                <label for="yes">
+                <input type="radio" id="yes" name="action" value="yes">YES</input>
+                </label><br>
+                <label for="no">
+                <input type="radio" id="no" name="action" value="no">NO</input>
+                </label><br>
+            </div>
+            <div class="form-control">
+                <br><label>what is your thoughts about this type of pollution?</label><br>
+                <label for="inp-1">
+                <input type="checkbox" value="1" id="field" name="inp-1">
+                it is dangerous for nature</label><br>
+                <label for="inp-2">
+                <input type="checkbox" value="2" id="field" name="inp-2">
+                it is not impotant</label><br>
+                <label for="inp-3">
+                <input type="checkbox" value="3" id="field" name="inp-3">
+                i do not have an idea</label><br>
+            </div>
+            <div class="form-control">
+                <br><label for="comment">what solution do you suggest?</label>
+                <textarea id="comment" name="comment" row="10" cols="50" placeholder="i suggest these solutions..."></textarea>
+            </div class="submit">
+                <div class="form-control">
+                <input type="submit" id="submit">
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
+
+
